@@ -1,0 +1,50 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    /* margin: 0px auto; */
+    padding: auto;
+}
+#navbar .logo{
+    text-align: center;
+}
+#navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/* Home Section */
+#home{
+    height: 370px;
+}
+#home::before{
+    height: 500px;
+    width: 100%;
+    background-image: cover;
+    right: 0px;
+    display: inline-block;
+    border: 2px solid red;
+}
+#home p{
+    font-size: 13px;
+}
+
+/* Services Section */
+.services{
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Client Section */
+.clients{
+    overflow: hidden;
+}
+
+/* Utility Classes */
+.h-primary{
+    font-size: 25px;
+}
